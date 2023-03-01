@@ -8,9 +8,6 @@
 
 /* INICIO */
 .inicio{
-
-    background-size: cover;
-    background-position: center;
     background: url(../Imagenes/fondo.png), #7b4397;
     background: url(../Imagenes/fondo.png), -webkit-gradient(linear, right top, left top, from(#7b4397), to(rgb(2, 31, 68)));
     background: url(../Imagenes/fondo.png), linear-gradient(to left, #7b4397, rgb(2, 31, 68));
