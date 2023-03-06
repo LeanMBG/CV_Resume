@@ -8,7 +8,6 @@
 
 /* INICIO */
 .inicio{
-    background: url(../Imagenes/fondo.jpg), #7b4397;
     background: url(../Imagenes/fondo.jpg), linear-gradient(to left, #7b4397, rgb(2, 31, 68));
     background-attachment: fixed;
 }
@@ -22,13 +21,13 @@
     padding: 10px;
 }
 
-/* menu lateral */
+/* menu navegador */
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 50px;
-    background-color: #940253;
+    background-color: #940268;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 150px;
     text-align: center;
     z-index: 99;
     display: none;
@@ -40,7 +39,7 @@
     margin-bottom: 10px;
     font-weight: bold;
 }
-/* ****** */
+
 .inicio .contenido-seccion header .logo{
     font-weight: bold;
     font-size: 2.5rem;
@@ -100,14 +99,14 @@
     transform: translateX(-50%);
 }
 
-/* estilos generales */
+
 .titulo-seccion{
     font-family: "Yellowtail";
     font-size: 1.5rem;
 }
 
 
-/* SECCION SOBRE MI */
+/* SOBRE MI */
 .sobremi{
     background-color: #e6e6e6;
     padding: 140px 0 100px 0;
@@ -154,10 +153,8 @@
 .habilidades{
     padding: 80px 0 100px 0;
     text-align: center;
-    background: url(../Imagenes/fondo.jpg), #7b4397;
-        background: url(../Imagenes/fondo.jpg), linear-gradient(to left, #7b4397, rgb(2, 31, 68));
+    background: url(../Imagenes/fondo.jpg), linear-gradient(to left, #7b4397, rgb(2, 31, 68));
     background-attachment: fixed;
-    background-position: center center;
     color: #fff;
 }
 .habilidades .contenido-seccion{
@@ -276,7 +273,7 @@
     color: #940253;
 }
 
-/* DISEÑO RESPONSIVE */
+/* RESPONSIVE */
 @media screen and (max-width:800px){
     .habilidades .contenido-seccion .fila{
         display: block;
