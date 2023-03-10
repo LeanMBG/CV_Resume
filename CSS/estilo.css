@@ -10,7 +10,7 @@
 .inicio{
     padding: 80px 0 100px 0;
     text-align: center;
-    background: url(../Imagenes/fondo1.jpg), linear-gradient(to left, #7b4397, rgb(2, 31, 68));
+    background: url(../Imagenes/fondo1.jpg);
     background-attachment: fixed;
     background-size: cover;
     color: #fff;
@@ -164,7 +164,7 @@
 .habilidades{
     padding: 80px 0 100px 0;
     text-align: center;
-    background: url(../Imagenes/fondo.jpg), linear-gradient(to left, #7b4397, rgb(2, 31, 68));
+    background: url(../Imagenes/fondo.jpg);
     background-attachment: fixed;
     background-size: cover;
 
