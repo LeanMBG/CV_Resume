@@ -30,18 +30,18 @@ function crearBarra(id_barra){
     }
 }
 
-let TSQL = document.getElementById("TSQL");
-crearBarra(TSQL);
-let Python = document.getElementById("Python");
-crearBarra(Python);
-let MySql = document.getElementById("MySQL");
-crearBarra(MySql);
-let PowBi = document.getElementById("PowBi");
-crearBarra(Power Bi);
-let Tableau = document.getElementById("Tableau");
-crearBarra(Tableau);
-let Debug = document.getElementById("Debug");
-crearBarra(Debug);
+let html = document.getElementById("html");
+crearBarra(html);
+let javascript = document.getElementById("javascript");
+crearBarra(javascript);
+let SQL = document.getElementById("SQL");
+crearBarra(SQL);
+let VB6 = document.getElementById("VB6");
+crearBarra(VB6);
+let NodeJS = document.getElementById("NodeJS");
+crearBarra(NodeJS);
+let scrum = document.getElementById("scrum");
+crearBarra(scrum);
 
 //Gaurdo la cantidad de items que se van a ir pintando por cada barra
 //comienzan en -1 porque no tiene ninguna pintada al iniciarse, los arrays arrancan en 0
@@ -55,23 +55,23 @@ function efectoHabilidades(){
     var distancia_skills = window.innerHeight - habilidades.getBoundingClientRect().top;
     if(distancia_skills>=300 && entro==false){
         entro = true;
-        const intervalTSQL = setInterval(function(){
-            pintarBarra(TSQL, 16, 0, intervalTSQL);
+        const intervalHtml = setInterval(function(){
+            pintarBarra(html, 16, 0, intervalHtml);
         },100);
-        const intervalPython = setInterval(function(){
-            pintarBarra(Python, 11, 1, intervalPython);
+        const intervalJavascript = setInterval(function(){
+            pintarBarra(javascript, 11, 1, intervalJavascript);
         },100);
-        const intervalMySql = setInterval(function(){
-            pintarBarra(MySql, 15, 2, intervalMySql);
+        const intervalSQL = setInterval(function(){
+            pintarBarra(SQL, 16, 2, intervalSQL);
         },100);
-        const intervalPOWBI = setInterval(function(){
-            pintarBarra(POWBI, 14, 3, intervalPOWBI);
+        const intervalVB6 = setInterval(function(){
+            pintarBarra(VB6, 13, 3, intervalVB6);
         },100);
-        const intervalTableau = setInterval(function(){
-            pintarBarra(Tableau, 15, 4, intervalTableau);
+        const intervalNodeJS = setInterval(function(){
+            pintarBarra(NodeJS, 16, 4, intervalNodeJS);
         },100);
-        const intervalDebug = setInterval(function(){
-            pintarBarra(Debug, 16, 5, intervalDebug);
+        const intervalScrum = setInterval(function(){
+            pintarBarra(scrum, 11, 5, intervalScrum);
         },100);
     }
 }
