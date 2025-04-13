@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="CSS/estilo.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primer CV</title>
+    <title>Mi CV - My Resume</title>
 </head>
+
 <body>
 
-    <!-- INICIO -->
+    <!-- INICIO / INDEX -->
     <section class="inicio" id="inicio">
+
         <div class="contenido-seccion">
             <header>
                 <div class="nav-bar" onclick="mostrarOcultarMenu()"> <!--//evento on clic para mostrar info del menu-->
@@ -21,273 +25,642 @@
                     <a href="#inicio">Inicio</a>
                     <a href="#sobremi">Sobre mí</a>
                     <a href="#habilidades">Habilidades</a>
-                    <a href="#resumen">Resumen</a>
+                    <a href="#resumen">Experiencia</a>
+                    <a href="#Formación">Formacion</a>
                     <a href="#contacto">Contacto</a>
                 </nav>
+
                 <div class="logo">
-                    Mi<span class="color"> CV</span>
+                    Mi<span class="color"> CV - </span> My<span class="color"> Resume</span>
                 </div>
             </header>
+
+
             <div class="info">
                 <h1>Leandro M. B.</h1>
                 <h2>Analista de Datos | Especialista en Soporte IT</h2>
-              </div>
+            </div>
             <div class="foto">
                 <img src="imagenes/foto.jpg" alt="foto_perfil">
             </div>
+
         </div>
+
     </section>
 
-    <!-- SOBRE MI -->
-    <section class="sobremi" id="sobremi">
+    <!-- SOBRE MI / ABOUT ME -->
+    <section id="sobremi">
         <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Sobre Mi</h2>
-            <p class="especial">Perfil Profesional</p>
-            <p>Analista de Datos con experiencia en SQL, Power BI y automatización de procesos batch. Especializado en modelado de datos, depuración y optimización de consultas SQL para mejorar la toma de decisiones empresariales. Conocimientos en desarrollo con .NET y análisis de incidencias en entornos productivos.
-               Busco contribuir con mi experiencia en análisis y optimización de datos a empresas tecnológicas y del sector financiero.</p>
+            <h2 class="titulo-seccion">Sobre Mí</h2>
+            <h3 class="especial">Perfil Profesional</h3>
+            <p class="descripcion">
+                Soy <strong>Analista de Datos</strong> especializado en <strong>SQL</strong>,
+                <strong>depuración</strong> en entornos productivos, <strong>optimización de consultas</strong> y
+                <strong>automatización de procesos batch</strong>. Mi enfoque está en el <strong>análisis de
+                    datos</strong> y la <strong>mejora de procesos</strong> para optimizar el rendimiento y la calidad
+                de la información. <br>
+                Cuento con experiencia en <strong>soporte avanzado</strong>, resolviendo incidencias críticas y
+                asegurando la estabilidad de los sistemas. <br>
+                Actualmente, desarrollo conocimientos en <strong>Power BI</strong>, <strong>funciones DAX</strong> y
+                <strong>Power Query</strong>, con el objetivo de fortalecer mis capacidades en visualización de datos.
+            </p>
 
-            <div class="fila">
+            <div class="info">
                 <div class="col">
-                    <i class="bi bi-person-check-fill"></i>
-                    <span class="titulo-detalle">Perfil</span>
-                    <p class="especial">Fecha de Nacimiento: <p></p>19/01/1989</p>
-                    <p class="especial"> Mas info:<p><p> Lorem ipsum dolor siore provident fugiat excepturi commodi</p>
+                    <div>
+                        <i class="bi bi-signpost-split" , title="Ubicación"></i>
+                        <span><b>Ubicación</b></span>
+                    </div>
+                    <p><strong>País:</strong> España <br>
+                        <strong>Provincia:</strong> Malaga con disponibilidad para traslado a otras regiones <br>
+                        <b>Poseo autorización de Residencia Legal y permiso de trabajo.</b> <br>
                 </div>
                 <div class="col">
-                    <i class="bi bi-signpost-split"></i>
-                    <span class="titulo-detalle">Ubicación</span>
-                    <p class="especial"> País de Residencia:<p><p></p>España</p>
-                    <p class="especial"> Provincia:<p><p></p>Málaga</p>
-                </div>
-                <div class="col">
-                    <i class="bi bi-rocket"></i>
-                    <span class="titulo-detalle">Intereses</span>
-                    <p>Apasionado por desarrollar conocimientos tanto en Data Analysis, como la rama de Data Scientist.</p>
+                    <div>
+                        <i class="bi bi-rocket" , title="Intereses"></i>
+                        <span><b>Intereses</b></span>
+                    </div>
+                    <p>Apasionado por la tecnología, la ciencia de datos y el aprendizaje continuo multidisciplinario.
+                        Participo activamente en comunidades IT y disfruto de los desafíos analíticos.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- HABILIDADES -->
+
+
+    <!-- HABILIDADES / SKILLS -->
     <section class="habilidades" id="habilidades">
         <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Habilidades IT</h2>
-            <h3>Me especializo en</h3>
-            <div class="fila">
-                <div class="col">
-                    <span>HTML/CSS</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="html">
+            <h2 class="titulo-seccion">Resumen habilidades IT</h2>
+                <h2>Me especializo en:</h2>
+                <div class="fila">
+                    <div class="col">
+                        <span>Capacidad Analitica</span>
+                        <div class="cont-barra">
+                            <div class="barra" id="analysis">
+                            </div>
+                            <span>90%</span>
                         </div>
-                        <span>90%</span>
                     </div>
-                </div>
- 
 
-                <div class="col">
-                    <span>JAVASCRIPT</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="javascript">
+
+                    <div class="col">
+                        <span>Python (data analysis)</span>
+                        <div class="cont-barra">
+                            <div class="barra" id="python">
+                            </div>
+                            <span>70%</span>
                         </div>
-                        <span>70%</span>
                     </div>
                 </div>
-            </div>
- 
-            <div class="fila">
+
+             <div class="fila">
                 <div class="col">
-                    <span>SQL</span>
+                    <span>MSSQL - MySql - PostgreSQL </span>
                     <div class="cont-barra">
                         <div class="barra" id="SQL">
                         </div>
                         <span>90%</span>
                     </div>
                 </div>
- 
+
 
                 <div class="col">
-                    <span>VB6</span>
+                    <span>Debug VB6 - C#.Net</span>
                     <div class="cont-barra">
                         <div class="barra" id="VB6">
                         </div>
                         <span>80%</span>
                     </div>
                 </div>
-            </div>
- 
-
-            <div class="fila">
-                <div class="col">
-                    <span>NodeJS</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="NodeJS">
-                        </div>
-                        <span>93%</span>
-                    </div>
                 </div>
- 
 
+
+             <div class="fila">
                 <div class="col">
-                    <span>Scrum / Agile </span>
+                    <span>Tableau</span>
                     <div class="cont-barra">
-                        <div class="barra" id="scrum">
+                        <div class="barra" id="Tableau">
                         </div>
                         <span>70%</span>
                     </div>
                 </div>
+
+
+                <div class="col">
+                    <span>Power Bi</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="PowerBi">
+                        </div>
+                        <span>70%</span>
+                    </div>
+                </div>
+             </div>
+
+
+             <div class="fila">
+                <div class="col">
+                       <span>Estadistica Descriptiva</span>
+                       <div class="cont-barra">
+                           <div class="barra" id="EstadisticaDescriptiva">
+                           </div>
+                           <span>70%</span>
+                       </div>
+                </div>
+                <div class="col">
+                        <span>DAX - lenguaje M - KPIs</span>
+                        <div class="cont-barra">
+                            <div class="barra" id="dax">
+                            </div>
+                            <span>70%</span>
+                        </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- Show & Tell -->
+    <section class="proyectos" id="proyectos">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis Proyectos</h2>
+            <h3 class="especial">Show & Tell</h3>
+            <p class="descripcion-seccion">Mirá algunos proyectos que he desarrollado. Cada uno refleja lo que más me
+                apasiona: convertir datos y código en soluciones reales.</p>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- Project 1 -->
+                    <div class="swiper-slide">
+                        <div class="video-container"
+                            title="Protecto CV">
+                            <iframe src="https://www.youtube.com/embed/rkPWcl3MN1o" frameborder="0"
+                                allowfullscreen></iframe>
+                            <p class="video-titulo">Protecto CV (antes y despues)</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="swiper-slide">
+                        <div class="video-container"
+                            title="React Project Fullstack (MERN)">
+                            <iframe src="https://www.youtube.com/embed/Q6XO6Wecugs" frameborder="0"
+                                allowfullscreen></iframe>
+                            <p class="video-titulo">React Project Fullstack (MERN)</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="swiper-slide">
+                        <div class="video-container"
+                            title="Dashboard interactivo de Power BI con KPIs y filtros dinámicos">
+                            <iframe src="https://www.youtube.com/embed/tm_Sknz8nis" frameborder="0"
+                                allowfullscreen></iframe>
+                            <p class="video-titulo">Proyecto Power Bi</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="swiper-slide">
+                        <div class="video-container" title="Dashboard Interactivo en Tableau">
+                            <iframe src="https://www.youtube.com/embed/YOh6zbVZobg" frameborder="0"
+                                allowfullscreen></iframe>
+                            <p class="video-titulo">Automatización Batch</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slider -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </section>
 
-    <!-- RESUMEN -->
+
+    <!-- Resumen / Summary -->
     <section class="resumen" id="resumen">
         <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Resumen</h2>
-            <h3>Mi preparación y experiencia</h3>
-            <div class="info">
-                <div class="col">
-                    <span class="titulo">Formación</span>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>2020 - en curso</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Avance de carrera superior al 70%. Aprención de conceptos como: POO, SQL, Base de datos, modelados de BD, programación, pensamiento lógico, algoritmos...
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Licenciatura en Informática</h4>
-                                <p>Universidad Empresarial Siglo XXI</p>
-                            </td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>2024 - 2025</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                               Creación de dashboards, storytelling con datos, optimización de DAX y modelado de datos.<br>
-                                • <a href="bit.ly/43vpRHu">Proyecto Power BI</a> | <a href="bit.ly/4iJzUNq">Certificación</a>
-                                <br>
-                                • <a href="bit.ly/41zd8AT">Proyecto Tableau</a> | <a href="bit.ly/41Lqr1g">Certificación</a>
-                                <br>
-                               Análisis e interpretación de datos con Python (Pandas, NumPy, Matplotlib, Seaborn).
-                                <br>
-                                • <a href="github.com/LeanMBG/coder_ds">Proyecto en Jupyter Notebook</a>
-                                <br>
-                                <b>Otras certificaciones relevantes: </b> SQL, Power BI, desarrollo (.NET, C#). 
-                                <a href="bit.ly/4iBPw5w">Aquí</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Cursos Relevantes</h4><br>
-                                <p>Data Analyst (Power BI) - Coderhouse</p><br>
-                                <p>Tableau - Coderhouse Cursos</p><br>
-                                <p>Data Science I – Coderhouse</p><br>
-                                <p>Master en SQL - Udemy </p>
+            <h2 class="titulo-seccion">Trayectoria</h2>
+            <h3>Experiencia & Formacion</h3>
 
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+
+            <div class="info">
+                <!-- Exp. Profesional / Prof. Exp. -->
                 <div class="col">
-                    <span class="titulo">Experiencia</span>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>(08/2021 - Presente) </h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                • Desarrollo de dashboards y reportes en Power BI y Excel avanzado. <br>
-                                • Procesos ETL: extracción, transformación y carga de grandes volúmenes de datos en SQL.<br>
-                                • Optimización de bases de datos mediante DML y DDL para mejorar la eficiencia en consultas.<br>
-                                • Depuración de errores en VB6 y .NET, resolviendo incidencias críticas en entornos productivos.<br>
-                                • Automatización y optimización de procesos batch, reduciendo tiempos de ejecución en un 40%.<br>
-                                • Gestión de incidentes asegurando respuesta efectiva y resolución en el menor tiempo posible.<br>                          
-                            </td>
-                            
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Jerárquicos (Health Insurance) - Argentina</h4>
-                                <p>SSR. Analista de Datos y Operaciones - FREELANCE REMOTO </p>
-                            </td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>(12/2023 - 03/2024)</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                • Desarrollo de mejoras en frontend y backend con C# .NET, JavaScript, HTML, CSS, Bootstrap, JQuery y Ajax. <br>
-                                • Integración y uso de ORM (Dapper) para acceso eficiente a bases de datos.<br>
-                                • Pruebas de conexión con APIs y uso de Postman y Swagger.<br>
-                                • Gestión de versiones y control de código fuente con GIT.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Jerárquicos (Health Insurance) - Argentina</h4>
-                                <p>JR. DevOps FullStack .NET</p>
-                            </td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>(08/2021 - 11/2023)</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                • Conciliaciones contables.<br>
-                                • Gestión de mora.<br>
-                                • Facturación.<br>
-                                • Propuestas de mejora en procesos e implementaciones.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Jerárquicos (Health Insurance) - Argentina</h4>
-                                <p>Auxiliar Contador</p>
-                            </td>
-                        </tr>
-                    </table>
+                    <span class="titulo" id="Experiencia">Experiencia Profesional</span>
+
+                    <div class="experiencia-item">
+                        <div class="experiencia-item">
+                            <div class="cabecera-exp">
+                                <div><h4 class="h4-head">Jerárquicos Salud (Health Insurance)</h4>
+                                <p>Argentina (Remote)</p></div>
+                                <span class="fecha">08/2021 - Presente</span>
+                            </div>
+                            <h5 class="puesto">SRR. Analista de Datos y Operaciones</h5>
+                            <ul class="descripcion">
+
+                                <ul>
+                                    <li>
+                                        <strong>Bases de Datos Relacionales:</strong> Manejo de <strong>MySQL</strong>,
+                                        <strong>PostgreSQL</strong> y <strong>SQL Server</strong> para la consulta,
+                                        análisis y limpieza de datos. Experiencia aplicando <strong>DML</strong> para la
+                                        depuración y corrección de registros en bases productivas.
+                                    </li>
+
+                                    <li>
+                                        Ejecución de consultas complejas en <strong>T-SQL</strong> para
+                                        <strong>extracción, análisis y limpieza de datos</strong>. Corrección de
+                                        registros erróneos mediante sentencias <strong>DML (INSERT, UPDATE,
+                                            DELETE)</strong>, asegurando la calidad y consistencia de la información.
+                                    </li>
+
+                                    <li>
+                                        Diseño, desarrollo y mantenimiento de <strong>dashboards interactivos en Power
+                                            BI</strong>, aplicando <strong>DAX</strong> y <strong>Power Query</strong>
+                                        para transformar datos en insights utilizables.
+                                    </li>
+
+                                    <li>
+                                        <strong>Creación de informes avanzados</strong> en <strong>Excel</strong> con
+                                        <strong>tablas dinámicas</strong> y segmentación de datos.
+                                    </li>
+
+                                    <li>
+                                        Experiencia en <strong>generaciones de reportes</strong> con <strong>Crystal
+                                            Reports</strong>, integrando consultas <strong>SQL</strong> para asegurar
+                                        visualizaciones precisas, orientadas a la toma de decisiones.
+                                    </li>
+
+                                    <li>
+                                        <strong>Debugging & Resolución de Incidencias:</strong> Depuración de errores en
+                                        <strong>VB6</strong> y <strong>.NET</strong>, y resolución de incidencias
+                                        críticas en entornos productivos, garantizando la mínima interrupción de los
+                                        servicios.
+                                    </li>
+
+                                    <li>
+                                        <strong>Automatización & Procesos Batch:</strong> Creación, monitoreo y
+                                        optimización de <strong>procesos batch</strong> para la automatización de tareas
+                                        repetitivas. <br>
+                                        Supervisión continua de los procesos para asegurar su correcto funcionamiento en
+                                        entornos productivos, con implementación de <strong>alertas</strong> para
+                                        detectar y resolver incidencias de manera proactiva.
+                                    </li>
+                                    <li>
+                                        <strong>Gestión de Código & Control de Versiones:</strong> Manejo de
+                                        herramientas de versionado <strong>SVN</strong> para el control de cambios,
+                                        gestión de ramas y merge, colaborando en entornos de desarrollo colaborativo y
+                                        asegurando <strong>releases estables</strong> en ambientes productivos.
+                                        Aplicación de buenas prácticas en la gestión del ciclo de vida del software.
+                                    </li>
+
+
+
+                                </ul>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="experiencia-item">
+                        <div class="experiencia-item">
+                            <div class="experiencia-item">
+                                <div class="cabecera-exp">
+                                    <div><h4 class="h4-head">Jerárquicos Salud (Health Insurance)</h4>
+                                        <p>Argentina (Remote)</p></div>
+                                    <span class="fecha">12/2023 - 03/2024</span>
+                                </div>
+                                <h5 class="puesto">JR. DevOps Fullstack C#.Net</h5>
+                                <ul class="descripcion">
+                                    <ul>
+                                        <li>
+                                            Participación activa en la <strong>implementación de mejoras</strong> tanto
+                                            en el <strong>frontend</strong> como en el <strong>backend</strong> de
+                                            aplicaciones web. Desarrollo con <strong>C# .NET</strong> en la capa de
+                                            servidor y uso de <strong>JavaScript, HTML, CSS, Bootstrap, JQuery</strong>
+                                            y <strong>Ajax</strong> para la interfaz de usuario.
+                                            <br>
+                                            Integración de servicios mediante <strong>consumo de APIs REST</strong>,
+                                            utilizando <strong>Postman</strong> y <strong>Swagger</strong> para pruebas,
+                                            documentación y validación de endpoints.
+                                        </li>
+
+                                        <li>
+                                            <strong>Gestión de Código & Control de Versiones:</strong> Manejo de
+                                            herramientas de versionado como <strong>GIT</strong> y <strong>SVN</strong>
+                                            para el control de cambios, gestión de ramas y merge, colaborando en
+                                            entornos de desarrollo colaborativo y asegurando <strong>releases
+                                                estables</strong> en ambientes productivos. Aplicación de buenas
+                                            prácticas en la gestión del ciclo de vida del software.
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="experiencia-item">
+
+
+                            <div class="experiencia-item">
+                                <div class="cabecera-exp">
+                                    <div><h4 class="h4-head">Jerárquicos Salud (Health Insurance)</h4>
+                                        <p>Argentina (presencial)</p></div>
+                                    <span class="fecha">10/2012 - 07/2021</span>
+                                </div>
+                                <h5 class="puesto">Auxiliar Contador</h5>
+                                <ul class="descripcion">
+                                    <ul>
+                                        <li>
+                                            <strong>Conciliaciones contables:</strong> Análisis y conciliación de
+                                            cuentas bancarias y cuentas corrientes de clientes y proveedores,
+                                            identificando y resolviendo diferencias. Desarrollo de informes mensuales
+                                            que demandaban <strong>precisión en el manejo de datos</strong> y
+                                            cumplimiento de plazos, habilidades clave en proyectos de <strong>Data
+                                                Analysis</strong>.
+                                        </li>
+                                        <li>
+                                            <strong>Gestión de mora:</strong> Seguimiento y control de cuentas en estado
+                                            de mora. Coordinación con clientes para establecer planes de pago, registro
+                                            de gestiones en el sistema y elaboración de reportes de recuperación.
+                                            Trabajo orientado a resultados, basado en <strong>KPIs y seguimiento de
+                                                métricas</strong>.
+                                        </li>
+                                        <li>
+                                            <strong>Facturación:</strong> Emisión, control y validación de facturación
+                                            electrónica. Verificación de datos fiscales y condiciones impositivas,
+                                            asegurando <strong>calidad y consistencia en los datos registrados</strong>.
+                                            Manejo de sistemas administrativos integrados.
+                                        </li>
+                                        <li>
+                                            <strong>Propuestas de mejora e implementación:</strong> Análisis de
+                                            circuitos administrativos contables e identificación de oportunidades de
+                                            mejora. Propuesta e implementación de soluciones para la optimización de
+                                            procesos, incluyendo la <strong>automatización de tareas
+                                                repetitivas</strong> y la <strong>reducción de errores humanos</strong>,
+                                            transfiriendo conocimiento al equipo.
+                                        </li>
+                                    </ul>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- FORMACIÓN / EDUCATION -->
+                <div class="col">
+                    <span class="titulo" id="Formación">Formación</span>
+
+                    <div class="experiencia-item">
+                        <div class="cabecera-exp">
+                            <h4 class="h4-head"><strong>Licenciatura en Informática</strong></h4>
+                            <span class="fecha">06/2020 - En curso</span>
+                        </div>
+                        <p3>(Universidad Empresarial Siglo XXI)</p3>
+                    </div>
+
+                    <div class="experiencia-item">
+                        <div class="cabecera-exp">
+                            <h4 class="h4-head">Inglés B2</h4>
+                            <span class="fecha">2024</span>
+                        </div>
+                        <P3>(Certificado por <strong>Cisco</strong>)</P3>
+                    </div>
+
+
+
+                    <div class="experiencia-item">
+                        <div class="cabecera-exp">
+                            <h4 class="h4-head">Certificaciones</h4>
+                        </div>
+                        <ul class="descripcion">
+
+
+                            <!-- CARRUSEL DE CERTIFICADOS -->
+                            <div class="carousel-container">
+                                <!-- Carrusel de Certificaciones (PDFs embebidos) -->
+                                <div class="certificaciones-carousel swiper mySwiper-certificados">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/1oGH_nHJ8dXEf8zZiaszc0DLV8ZCrO_RW/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/1ExMSbJV1gqHJtudwyVr5x_t8nfSGn2O_/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/1Jt9SlpQyUMJ4MAxy3vNk5gKtA-Ae0s5T/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/17GJ2TUtXtfHo4ZsXoU6vTiX9lpW4W0Z0/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/1CfOmGrNJ8GE5yHuuw5THlEjXOp9dX374/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe
+                                                src="https://drive.google.com/file/d/14AO65707mZw7xW58jI4oBSTJkWnsrX4G/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/1ZiEq_V4-70TA1RIGbthMgVdGwzY-EUVo/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/1TUCrxNSV2wx6bQGtvFaLRKMz3izBqfi9/preview"
+                                                src=""
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/1EvHQGZ91O_NKy6jDbdJ59I-_5PAqnKSE/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/10rMDkO_AxQvRiZkYtPLvFOiYV64GJCWp/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/14SLK31eWstVpWV9rQAuxYB2szbk62EtN/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/1r5yjsD8Q_V-scvL-kXMm411RG8_5Ho_Z/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/1f_2M3idf8kmpBK_cNWbyI2vnLfkf_WO_/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/18BO9QArvB5USvH15z409FkjlVpiMEvw4/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/1-GiJ9A2-kJ2s76PoU6kYf6uSC5NeeYDU/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/1V3kRxQ-zBZr47vOSy64utw2tI1pKlz2s/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/1z_rOkgSZCwrkU1KA-EZWdxAhHaDgt-d-/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <iframe loading="lazy"
+                                                src="https://drive.google.com/file/d/14AKTLL2LOeg0j_fJWJ0f1yy89fZ1ZqkA/preview"
+                                                frameborder="0"></iframe>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Flechas de navegación -->
+                                    <div class="swiper-button-prev swiper-button-prev-certificados"></div>
+                                    <div class="swiper-button-next swiper-button-next-certificados"></div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="experiencia-item">
+                                <div class="cabecera-exp">
+                                    <h4 class="h4-head">Cursos 2024-2025: </h4>
+                            </div>
+
+
+
+                            <div class="experiencia-item">
+                                <div class="cabecera-exp">
+                                    <h4 class="h4-head">
+                                        <strong>Tableau</strong> - <span class="normal">Coderhouse</span>
+                                    </h4>
+                                    <span class="fecha">2024-2025</span>
+                                </div>
+                                    <p>
+                                        Adquirí conocimientos claves para transformar los datos en información visual y efectiva para la toma de decisiones. <br>
+                                        Destaco conexiones e importación de datos desde múltiples fuentes (<strong>archivos planos</strong>, <strong>bases de datos</strong>), <strong>depuración de datos</strong>, creación de <strong>KPIs</strong>, <strong>visualizaciones interactivas</strong> (gráficos básicos y avanzados), uso de <strong>campos calculados</strong> y técnicas de <strong>storytelling con datos</strong> para dashboards orientados a la toma de decisiones. <br>
+                                        Además, incorporé <strong>mejores prácticas de diseño</strong>, participé en un <strong>workshop práctico</strong> resolviendo casos reales de análisis.<br>
+                                        Este curso fortaleció mi capacidad para desarrollar <strong>dashboards analíticos</strong> centrados en el usuario final, comunicando hallazgos de forma clara y basada en datos.<br>
+                                    </p>
+                                     <br>
+                                Revisión del proyecto en video (parte superior), proyecto <strong><a href="https://public.tableau.com/views/EntregaFinal_Barbera/PORTADA?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">Link a Proyecto Tableau</a>
+                                </strong> --> Certificado en carrusel</p>
+                            </div>
+
+
+                            <div class="experiencia-item">
+                                <div class="cabecera-exp">
+
+
+                                <h4 class="h4-head">
+                                    <strong>Data Analyst</strong> <span class="normal"> - CoderHouse</span>
+                                </h4>
+                                    <span class="fecha">2024</span>
+                                </div>
+                                    <p>
+                                        <strong>Análisis de datos</strong> con Power BI, modelado de datos con <strong>DAX</strong>, limpieza de datos con <strong>Power Query</strong>, estadística descriptiva, desarrollo de <strong>dashboards interactivos</strong>, storytelling con datos y <strong>visualización</strong> enfocada a la toma de decisiones.<br>
+                                        <strong>Exploración de datos</strong> aplicando estadística descriptiva (<strong>media</strong>, <strong>mediana</strong>, <strong>desviación estándar</strong>, <strong>correlación</strong>, etc.).<br>
+                                        Visualización e interpretación de <strong>KPIs</strong> y <strong>gráficos</strong> en Power BI.<br>
+                                        Modelado y análisis con fórmulas personalizadas usando <strong>DAX</strong>.<br>
+                                        Transformación y depuración de datos con <strong>Power Query</strong>. Lenguaje M.<br>
+                                        Uso de <strong>filtros</strong>, <strong>slicers</strong> y segmentaciones para análisis dinámico.<br>
+                                        Diseño de <strong>dashboards orientados</strong> a niveles <strong>estratégico</strong>, <strong>táctico</strong> y <strong>operativo</strong>.<br>
+                                        Evaluación de <strong>hipótesis de negocio</strong> mediante métricas clave.<br>
+                                        Buenas prácticas de <strong>storytelling con datos</strong>: jerarquía visual, claridad y orientación al usuario.<br>
+                                        Creación de <strong>informes interactivos</strong> con navegación entre pestañas.<br>
+                                        Análisis de <strong>rentabilidad</strong>, <strong>ventas</strong> y <strong>márgenes operativos</strong> por segmento.<br>
+                                    </p>
+                                     <br>
+                                    Proyecto en video, visualizaciones <strong><a href="https://ssssssssssssssssssss" target="_blank">Link a Proyecto de Power Bi</a>, 
+                                    <a href="https://drive.google.com/drive/folders/1dH7m-I5F2tRasncsCgt9vgrlPXn-u3tG" target="_blank"> Link a documentacion del proyecto</a> <br>
+                                    </strong> --> Certificado en carrusel</p>
+                            </div>
+
+
+
+                            <div class="experiencia-item">
+                                <div class="cabecera-exp">
+                                    <h4 class="h4-head">
+                                        <strong>Introducción: Data Science I</strong> <span class="normal"> - CoderHouse</span>
+                                    </h4>
+                                    <span class="fecha">2024</span>
+                                </div>
+                                    <p>
+                                        Aprendí a analizar datos con Python, utilizando bibliotecas como <strong>Pandas</strong>, <strong>NumPy</strong>, <strong>Matplotlib</strong> y <strong>Seaborn</strong>. <br>
+                                        Realicé un análisis exploratorio de datos (EDA) y limpieza de datos, aplicando técnicas de depuración y visualización. <br>
+                                        Implementé un modelo simple de regresión lineal para predecir valores continuos.<br>
+                                        Utilicé <strong>Jupyter Notebook</strong> para documentar el proceso de análisis y visualización.<br>
+                                        Aprendí a trabajar con <strong>Python</strong> para la manipulación y análisis de datos, aplicando técnicas de limpieza y transformación.<br>
+                                    </p>
+                                     <br>
+                                    Proyecto en video, visualizaciones <strong><a href="https://colab.research.google.com/github/LeanMBG/coder_ds/blob/main/VisualizacionBarbera.ipynb" target="_blank">COLAB - Link a Jupyter Notebook</a>, 
+                                    <a href="https://github.com/LeanMBG/Jupyter_Notebook_Data_Science_I/blob/main/VisualizacionBarbera.ipynb" target="_blank"> Link a analisis del proyecto (pdf)</a> <br>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- CONTACTO -->
+
+    <!-- CONTACTO / CONTACT -->
     <section class="contacto" id="contacto">
         <div class="contenido-seccion">
-            <h3 class="titulo-seccion">Contáctame!</h3>
-            <div class="fila">
-                <div class="col">
-                    <h2>
-                        <i class="fa-solid fa-phone"></i> Teléfono
-                    </h2>
-                    <span class="info-contacto">XX - XXYYXXZZ</span>
-                </div>
-                <div class="col">
-                    <h2>
-                        <i class="fa-solid fa-envelope"></i> Correo
-                    </h2>
-                    <span class="info-contacto">notRealHere@example.com</span>
-                </div>
-                <div class="col">
-                    <h2>
-                        <i class="fa-solid fa-globe"></i> GitHub
-                    </h2>
-                    <span class="info-contacto">github.com/LeanMBG</span>
-                </div>
+            <h3 class="titulo-seccion">¡Contactame!</h3>
+            <div class="botones-contacto">
+                <a href="https://www.linkedin.com/in/leandrobarbera" target="_blank" class="btn-contacto linkedin"
+                    data-tooltip="Ver mi perfil en LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+
+                <a href="https://github.com/LeanMBG" target="_blank" class="btn-contacto github"
+                    data-tooltip="Explorar mis proyectos en GitHub">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
             </div>
         </div>
     </section>
 
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- JS -->
     <script src="app.js"></script>
+
 </body>
+
 </html>
